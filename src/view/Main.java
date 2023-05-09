@@ -2,13 +2,13 @@ package view;
 
 import java.io.IOException;
 
-import controller.ArquivosController;
+import controller.ControllerFiles;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		ArquivosController aC = new ArquivosController();
+		ControllerFiles aC = new ControllerFiles();
 
 		String path = "C:\\temp";
 		String nome = "generic_food.csv";
